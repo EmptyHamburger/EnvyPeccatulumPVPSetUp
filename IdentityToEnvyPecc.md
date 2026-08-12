@@ -64,3 +64,5 @@ This means the `Shi Assoc. East Section 3 Faust` identity will have the followin
 
 The file already explained pretty much how this works but you may have trouble finding the correct EGO IDs
 Open `YourLetheFolder/BepInEx/plugins/Lethe/dumpedData/limbus_locale/egoList.json`. Here you can find every EGO ID that exists in the game
+
+<img width="779" height="545" alt="egoListjsonNavigation" src="https://github.com/user-attachments/assets/69a5daa4-53d8-4c3b-aeb0-2729d800749b" />
