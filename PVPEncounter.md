@@ -1,7 +1,9 @@
 # Configure your PVP Encounter
 
-Assuming you have downloaded the `PVP Encounter Template` from the `Identity to Envy Peccatulum` thread.
+Assuming you have downloaded the `PVP Encounter Template` from the `Identity to Envy Peccatulum` thread
 Open `PVPEncounterTemplate/custom_encounters/PVP/encounter.json`
+
+<img width="247" height="898" alt="encounterJsonConfiguration" src="https://github.com/user-attachments/assets/410d49b7-3724-4d3f-8a9e-5bf1c8a81b4f" />
 
 Ill go with most important stuffs first
 
@@ -29,6 +31,9 @@ Let's look at an example:
 `isHide`: ignore this
 
 The format is exactly the same for `subUnitList` you if want to add a backup identity
+
+<img width="177" height="126" alt="subUnitExample" src="https://github.com/user-attachments/assets/5e3e8b50-db5a-4fea-92e9-7bc904401343" />
+
 Be aware that the deployment order for the Envy Peccatulum side reads from top to bottom. For ex, the identity placed first in the `unitList` will have deployment order of `1` and this goes on until the end of the list then the deployment order is continued in `subUnitList`
 
 To find the identity's ID you want, open a code editor software and navigate to `YourLetheFolder/BepInEx/plugins/Lethe/dumpedData/limbus_data/personality`
