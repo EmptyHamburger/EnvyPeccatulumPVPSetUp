@@ -3,6 +3,7 @@
 To generate datas for Envy Peccatulums, do things in order
 - Dump the game's datas if you haven't (Press `0` when you are in Lethe)
 - Run `IDToAbnor.exe`
+
 You will have to do the above steps again everytime Lethe updates if you want to use new identities
 
 Assuming you have downloaded `config.json` from the `Identity to Envy Peccatulum` thread, open the file
@@ -42,13 +43,16 @@ Assuming you have downloaded `config.json` from the `Identity to Envy Peccatulum
 ```
 
 The `DefaultEgo` section is the EGO list applied for every identity, each line corresponds to a specific Sinner
+
 Example:
 ```json
 [[20101, 1], [0, 1], [0, 1], [0, 1]], // Yi Sang
 ```
+
 This line means that all all Yi Sang identities will have the `Crow's Eye View ` Uptie 1 EGO equipped and no TETH, HE and WAW EGOs equipped
 
 The `SpecificIdEgos` section allows you to equip specific EGOs for specific identities
+
 Example:
 ```json
 {
@@ -63,6 +67,7 @@ This means the `Shi Assoc. East Section 3 Faust` identity will have the followin
 - 'Everlasting', Uptie 4
 
 The file already explained pretty much how this works but you may have trouble finding the correct EGO IDs
+
 Open `YourLetheFolder/BepInEx/plugins/Lethe/dumpedData/limbus_locale/egoList.json`. Here you can find every EGO ID that exists in the game
 
 <img width="779" height="545" alt="egoListjsonNavigation" src="https://github.com/user-attachments/assets/69a5daa4-53d8-4c3b-aeb0-2729d800749b" />
