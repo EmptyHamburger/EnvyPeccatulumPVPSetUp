@@ -1,6 +1,6 @@
 # Configure your PVP Encounter
 
-Assuming you have downloaded the `PVP Encounter Template` from the `Identity to Envy Peccatulum` thread
+Assuming you have downloaded the `PVP Encounter Template` from the `Identity to Envy Peccatulum` thread.
 Open `PVPEncounterTemplate/custom_encounters/PVP/encounter.json`
 
 Ill go with most important stuffs first
