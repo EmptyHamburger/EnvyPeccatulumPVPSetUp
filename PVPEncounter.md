@@ -8,9 +8,11 @@ Open `PVPEncounterTemplate/custom_encounters/PVP/encounter.json`
 Ill go with most important stuffs first
 
 1. Max sinner deployment
+   
 Edit the `max` value in `participantInfo` to set the maximum number of Sinners you want to deploy for combat (Others will be in backup)
 
 2. Identities for Envy Peccatulum side
+   
 The `unitList` is where you place identities that will be instantly deployed when entering the encounter
 The `subUnitList` is where you place your backup identities
 Inside `unitList`, there are 6 units by default
@@ -42,5 +44,6 @@ Here you can find every vanilla identity ID in the game. In the screenshot, you 
 However, when inputing this ID number into `unitID`, it gonna be `2000010101` (Which is `2000000000` + `10101`, or 2 billions + the vanilla ID)
 
 3. Map & Background Music
+   
 In `battleMapInfo` you can edit the map's size and which map you want (Default is Kind in Binds map)
 In `bgmList` you can set own bgm music (Default is Canto 9 Boss Theme 2 - Lucio/Valencina fight)
