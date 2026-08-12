@@ -1,11 +1,11 @@
 # Configure your Envy Peccatulum EGOs
 
-Assuming you have downloaded `config.json` from the `Identity to Envy Peccatulum` thread, open the file
-
 To generate datas for Envy Peccatulums, do things in order
 - Dump the game's datas if you haven't (Press `0` when you are in Lethe)
 - Run `IDToAbnor.exe`
-You will have to do the above steps again everytime Lethe updates to a new version if you want to use new identities
+You will have to do the above steps again everytime Lethe updates if you want to use new identities
+
+Assuming you have downloaded `config.json` from the `Identity to Envy Peccatulum` thread, open the file
 
 ```json
 // E.G.O
