@@ -35,12 +35,11 @@ These settings are not activated by default. To use them, set `Active` to `true`
 
 All other settings apply to every unit on field regardless of their their faction
 1. `ClashWin` and `ClashWinMultiplier` are for this vanilla sanity script
+  <img width="400" height="72" alt="ClashWinAndMultiplier" src="https://github.com/user-attachments/assets/d7107ec8-8258-46d6-853c-3725a17c2333" />
 
-<img width="400" height="72" alt="ClashWinAndMultiplier" src="https://github.com/user-attachments/assets/d7107ec8-8258-46d6-853c-3725a17c2333" />
-
-Default:
-- Increases after winning a Clash based on Clash count
-- (Base Value is 5, raised by 0% per Clash count after 1)
+  Default:
+    - Increases after winning a Clash based on Clash count
+    - (Base Value is 5, raised by 0% per Clash count after 1)
 
 2. `ClashLose`: How much SP a unit gains/loses when losing a Clash
 3. `ClashLoseToLowerSPEnemy`: How much SP a unit will gains/loses when losing a Clash against target with a lower SP value
