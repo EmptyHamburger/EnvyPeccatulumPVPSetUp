@@ -7,11 +7,11 @@ Open `PVPEncounterTemplate/custom_encounters/PVP/encounter.json`
 
 Ill go with most important stuffs first
 
-1. Max sinner deployment
+## Max sinner deployment
    
 Edit the `max` value in `participantInfo` to set the maximum number of Sinners you want to deploy for combat (Others will be in backup)
 
-2. Identities for Envy Peccatulum side
+## Identities for Envy Peccatulum side
    
 The `unitList` is where you place identities that will be instantly deployed when entering the encounter
 The `subUnitList` is where you place your backup identities
