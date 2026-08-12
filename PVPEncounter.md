@@ -43,7 +43,7 @@ To find the identity's ID you want, open a code editor software and navigate to 
 Here you can find every vanilla identity ID in the game. In the screenshot, you can see the ID for `LCB Yi Sang` is `10101`
 However, when inputing this ID number into `unitID`, it gonna be `2000010101` (Which is `2000000000` + `10101`, or 2 billions + the vanilla ID)
 
-3. Map & Background Music
+## Map & Background Music
    
 In `battleMapInfo` you can edit the map's size and which map you want (Default is Kind in Binds map)
 In `bgmList` you can set own bgm music (Default is Canto 9 Boss Theme 2 - Lucio/Valencina fight)
