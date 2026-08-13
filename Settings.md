@@ -31,6 +31,7 @@ Open `EnvyPeccatulumPVP.json` file that you placed in your `YourLetheFolder/BepI
 }
 ```
 These settings are not activated by default. To use them, set `Active` to `true`
+
 `SpValue` determines the SP value your identities receive upon entering the encounter for the first time (SP back mechanic but works for every deployment order). This works for both the Sinner and Envy Peccatulum sides
 
 All other settings apply to every unit on field regardless of their their faction
