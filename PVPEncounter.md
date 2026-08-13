@@ -1,6 +1,7 @@
 # Configure your PVP Encounter
 
 Assuming you have downloaded the `PVP Encounter Template` from the `Identity to Envy Peccatulum` thread
+
 Open `PVPEncounterTemplate/custom_encounters/PVP/encounter.json`
 
 <img width="247" height="898" alt="encounterJsonConfiguration" src="https://github.com/user-attachments/assets/410d49b7-3724-4d3f-8a9e-5bf1c8a81b4f" />
@@ -14,8 +15,11 @@ Edit the `max` value in `participantInfo` to set the maximum number of Sinners y
 ## Identities for Envy Peccatulum side
    
 The `unitList` is where you place identities that will be instantly deployed when entering the encounter
+
 The `subUnitList` is where you place your backup identities
+
 Inside `unitList`, there are 6 units by default
+
 Let's look at an example:
 ```json
 {
@@ -41,9 +45,11 @@ Be aware that the deployment order for the Envy Peccatulum side reads from top t
 To find the identity's ID you want, open a code editor software and navigate to `YourLetheFolder/BepInEx/plugins/Lethe/dumpedData/limbus_data/personality`
 
 Here you can find every vanilla identity ID in the game. In the screenshot, you can see the ID for `LCB Yi Sang` is `10101`
+
 However, when inputing this ID number into `unitID`, it gonna be `2000010101` (Which is `2000000000` + `10101`, or 2 billions + the vanilla ID)
 
 ## Map & Background Music
    
 In `battleMapInfo` you can edit the map's size and which map you want (Default is Kind in Binds map)
+
 In `bgmList` you can set own bgm music (Default is Canto 9 Boss Theme 2 - Lucio/Valencina fight)
