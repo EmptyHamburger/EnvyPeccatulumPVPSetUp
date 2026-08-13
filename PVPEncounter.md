@@ -30,11 +30,11 @@ Let's look at an example:
     "isHide": false
 }
 ```
-`unitID`: The unit's ID
-`unitLevel`: The unit's level
-`unitCount`: how many unit there are
-`unitSyncLevel`: The unit's uptie level
-`isHide`: ignore this
+- `unitID`: The unit's ID
+- `unitLevel`: The unit's level
+- `unitCount`: how many unit there are
+- `unitSyncLevel`: The unit's uptie level
+- `isHide`: ignore this
 
 The format is exactly the same for `subUnitList` you if want to add a backup identity
 
