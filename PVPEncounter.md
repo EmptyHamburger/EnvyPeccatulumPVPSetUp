@@ -44,6 +44,8 @@ Be aware that the deployment order for the Envy Peccatulum side reads from top t
 
 To find the identity's ID you want, open a code editor software and navigate to `YourLetheFolder/BepInEx/plugins/Lethe/dumpedData/limbus_data/personality`
 
+<img width="627" height="375" alt="personalityFolder" src="https://github.com/user-attachments/assets/b5a0dba2-2aa1-4e0b-8b5c-f6ae985839d2" />
+
 Here you can find every vanilla identity ID in the game. In the screenshot, you can see the ID for `LCB Yi Sang` is `10101`
 
 However, when inputing this ID number into `unitID`, it gonna be `2000010101` (Which is `2000000000` + `10101`, or 2 billions + the vanilla ID)
